@@ -14,36 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="js/jquery.min.js"></script>
 </head>
 <body>
-<div class="header">
-		<div class="wrap"> 
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>	
-			</div>
-			<div class="top-nav">
-				<div class="menu">
-				<span class="menu"> </span>
-			   		<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class=""><a href="about.html">About</a></li>
-						<li class="active"><a href="services.html">Services</a></li>
-						<li class=""><a href="gallery.html">Gallery</a></li>
-						<li class=""><a href="contact.html">Contact</a></li>
-					</ul>
-					<div class="clear"></div>
-	   		  	</div>
-				<!-- script-for-nav -->
-					<script>
-						$( "span.menu" ).click(function() {
-						  $( ".top-nav ul" ).slideToggle(300, function() {
-							// Animation complete.
-						  });
-						});
-					</script>
-				<!-- script-for-nav -->	
-	   	   </div>
-			<div class="clear"></div>
-	  </div>	
- </div>
+
 	<div class="about-top">
 		<div class="wrap">
 			<div class="about-box">
@@ -91,7 +62,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 </div>
 					 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
 				</div>
-				 <div class="clear"></div> 	
+				 <div class="clear"></div>
 			</div>
 		 </div>
 	</div>
@@ -125,7 +96,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
-		    			</div>	
+		    			</div>
 		    			 <div class="section group example">
 							<div class="col_1_of_2 span_1_of_2">
 							<div class="icon">
@@ -147,9 +118,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
-		    			</div>			    
-				    </div>	
-				     <div class="clear"></div>			
+		    			</div>
+				    </div>
+				     <div class="clear"></div>
 		   		</div>
 		</div>
 	</div>
@@ -201,7 +172,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  	  <li>dolor sit amet,</li>
 						  	   <li>USA.</li>
 						 </ul>
-				    </div>			
+				    </div>
 				</div>
 				  <div class="col_1_of_footer span_1_of_footer">
 					<h3>Information</h3>
@@ -235,7 +206,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </body>
 </html>
-
-    	
-    	
-            
