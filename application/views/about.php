@@ -15,19 +15,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 <div class="header">
-		<div class="wrap"> 
+		<div class="wrap">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>	
+				<a href=<?php echo base_url(); ?>home><img src="images/logo.png" alt=""/></a>
 			</div>
 			<div class="top-nav">
 				<div class="menu">
 				<span class="menu"> </span>
 			   		<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="about.html">About</a></li>
-						<li class=""><a href="services.html">Services</a></li>
-						<li class=""><a href="gallery.html">Gallery</a></li>
-						<li class=""><a href="contact.html">Contact</a></li>
+						<li><a href=<?php echo base_url(); ?>home>Home</a></li>
+						<li class="active"><a href=<?php echo base_url(); ?>about>About</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>services>Services</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>gallery>Gallery</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>contact>Contact</a></li>
 					</ul>
 					<div class="clear"></div>
 	   		  	</div>
@@ -39,10 +39,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  });
 						});
 					</script>
-				<!-- script-for-nav -->	
+				<!-- script-for-nav -->
 	   	   </div>
 			<div class="clear"></div>
-	  </div>	
+	  </div>
  </div>
 	<div class="about-top">
 		<div class="wrap">
@@ -64,7 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								         </div>
 							   		</div>
 			  				 </div>
-				      </div>	
+				      </div>
 				<div class="lsidebar1 span_1_of_a about_desc">
 				      <h2>Latest News</h2>
 				     	<ul class="about-list">
@@ -82,7 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </li>
                         </ul>
 						</div>
-					   <div class="clear"></div> 			
+					   <div class="clear"></div>
 		   		</div>
 		</div>
 	</div>
@@ -116,7 +116,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
-		    			</div>	
+		    			</div>
 		    			 <div class="section group example">
 							<div class="col_1_of_2 span_1_of_2">
 							<div class="icon">
@@ -138,9 +138,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
-		    			</div>			    
-				    </div>	
-				     <div class="clear"></div>			
+		    			</div>
+				    </div>
+				     <div class="clear"></div>
 		   		</div>
 		</div>
 	</div>
@@ -192,7 +192,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  	  <li>dolor sit amet,</li>
 						  	   <li>USA.</li>
 						 </ul>
-				    </div>			
+				    </div>
 				</div>
 				  <div class="col_1_of_footer span_1_of_footer">
 					<h3>Information</h3>
@@ -226,7 +226,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </body>
 </html>
-
-    	
-    	
-            

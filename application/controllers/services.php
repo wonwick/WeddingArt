@@ -6,6 +6,6 @@ class services extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('services.html');
+		$this->load->view('services');
 	}
 }

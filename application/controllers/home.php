@@ -5,7 +5,7 @@ class home extends CI_Controller {
   // not working
 
 	public function index()
-	{ 
-		$this->load->view('home.html');
+	{
+		$this->load->view('home');
 	}
 }

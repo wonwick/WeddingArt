@@ -6,6 +6,6 @@ class gallery extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('gallery.html');
+		$this->load->view('gallery');
 	}
 }
