@@ -15,9 +15,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 <div class="header">
-		<div class="wrap"> 
+		<div class="wrap">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>	
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
 			</div>
 			<div class="top-nav">
 				<div class="menu">
@@ -39,10 +39,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  });
 						});
 					</script>
-				<!-- script-for-nav -->	
+				<!-- script-for-nav -->
 	   	   </div>
 			<div class="clear"></div>
-	  </div>	
+	  </div>
  </div>
 	<div class="about-top">
 		<div class="wrap">
@@ -65,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  	  <li>dolor sit amet,</li>
 						  	   <li>USA.</li>
 						 </ul>
-				    </div>			
+				    </div>
 				</div>
 				  <div class="col_1_of_footer span_1_of_footer">
 					<h3>Information</h3>
@@ -99,7 +99,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </body>
 </html>
-
-    	
-    	
-            
