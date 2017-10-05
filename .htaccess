@@ -1,1 +1,3 @@
-RewriteEngine On RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQ  UEST_FILENAME} !-d RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteEngine On
+RewriteCond $1 !^(index\.php|css|fonts|images|js)
+RewriteRule ^(.*)$ index.php/$1 [L]
