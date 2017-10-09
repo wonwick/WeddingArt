@@ -20,6 +20,6 @@
 		 */
 		public function index()
 		{
-			
+
 		}
 	}

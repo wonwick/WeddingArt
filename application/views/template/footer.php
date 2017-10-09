@@ -10,7 +10,7 @@
 						  	  <li>dolor sit amet,</li>
 						  	   <li>USA.</li>
 						 </ul>
-				    </div>			
+				    </div>
 				</div>
 				  <div class="col_1_of_footer span_1_of_footer">
 					<h3>Information</h3>
@@ -37,7 +37,7 @@
 		   </div>
 		        <div class="copy-right">
 					<div class="wrap">
-			           <p class="copy"><span>Brighton</span> © All Rights Reseverd</p> <p class="design"> Design by  <a href="http://w3layouts.com">W3Layouts</a></p>
+			           <p class="copy"><span>Brighton</span> ï¿½ All Rights Reseverd</p> <p class="design"><a href=<?php echo base_url(); ?>StaffLogin>Staff Login</a></p>
 		               <div class="clear"></div>
 		            </div>
 		       </div>
