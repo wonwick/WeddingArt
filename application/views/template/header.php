@@ -1,3 +1,4 @@
+<script src="js/jquery.min.js"></script>
 <div class="header">
 		<div class="wrap">
 			<div class="logo">
