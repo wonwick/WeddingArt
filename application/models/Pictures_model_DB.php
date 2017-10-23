@@ -25,15 +25,13 @@ class Pictures_model_DB extends CI_Model {
 		$query=$this->db->get('service_has_picture');
 		return $query->result();
 		
-
 	}
+
 	function getPictureByPicId($picId){
 		$this->db->where('picId',$picId);
 		$query=$this->db->get('picture');
 		return $query->result();
-
 	}
-
 
 	function insertPictue($data){
 		foreach($data as $key => $value) {
