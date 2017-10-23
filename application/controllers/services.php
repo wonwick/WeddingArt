@@ -18,13 +18,18 @@ class services extends CI_Controller {
 
 	public function poruAndSeteebacks()
 	{
-		$this->load->helper('url');
-		$this->load->view('template/header');
-		$this->load->view('services');
-		echo
-		$this->load->view('poruAndSeteebacks.php');
-		$this->load->view('middleContent.php');
-		$this->load->view('template/footer');
+		$this->load->Model("Service_model_DB");
+		$this->load->Model("Pictures_model_DB");
+		$services=$this->Service_model_DB->getServiceByType(3);
+		foreach ($services as $row){
+			echo $row->serviceId;
+			echo $row->title;
+			echo $row->description;
+
+
+
+		}
+
 
 	}
 }

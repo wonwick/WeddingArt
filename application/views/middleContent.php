@@ -15,7 +15,7 @@
               <div class="section group example">
              <div class="col_1_of_2 span_1_of_2">
              <div class="icon">
-               <img src="images/list-img.png">
+               <img src=<?php echo base_url();?>images/list-img.png>
              </div>
                <div class="heading">
                 <h3><a href="#">Lorem ipsum dolor</a></h3>
@@ -25,7 +25,7 @@
              </div>
              <div class="col_1_of_2 span_1_of_2">
              <div class="icon">
-               <img src="images/list-img1.png">
+               <img src=<?php echo base_url();?>images/list-img1.png>
              </div>
                <div class="heading">
                 <h3><a href="#">Lorem ipsum dolor</a></h3>
@@ -37,7 +37,7 @@
               <div class="section group example">
              <div class="col_1_of_2 span_1_of_2">
              <div class="icon">
-               <img src="images/ring.png">
+               <img src=<?php echo base_url();?>images/ring.png>
              </div>
                <div class="heading">
                 <h3><a href="#">Lorem ipsum dolor</a></h3>
@@ -47,7 +47,7 @@
              </div>
              <div class="col_1_of_2 span_1_of_2">
              <div class="icon">
-               <img src="images/gift.png">
+               <img src=<?php echo base_url();?>images/gift.png>
              </div>
                <div class="heading">
                <br>

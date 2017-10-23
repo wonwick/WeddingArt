@@ -1,9 +1,10 @@
 <?php echo base_url(); ?>
-<script src="js/jquery.min.js"></script>
+<script src=<?php echo base_url();?>js/jquery.min.js></script>
 <div class="header">
+	<link rel="stylesheet" href=<?php echo base_url();?>css/style.css>
 		<div class="wrap">
 			<div class="logo">
-				<a href=<?php echo base_url(); ?>home><img src="images/logo.png" alt=""/></a>
+				<a href=<?php echo base_url(); ?>home><img src=<?php echo base_url();?>images/logo.png alt=""/></a>
 			</div>
 			<div class="top-nav">
 				<div class="menu">
