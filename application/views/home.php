@@ -32,6 +32,78 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     });
   </script>
 </head>
+
+<style type="text/css">
+	.sidebar-box {
+			max-height: 120px;
+			position: relative;
+			padding: 20px;
+			overflow: hidden;
+		}
+
+	.sidebar-box .read-more { 
+			position: absolute; 
+			bottom: 0; left: 0;
+			width: 100%; 
+			text-align: center; 
+			margin: 0; 
+			padding: 30px 0 30px 0; 
+			
+			/* "transparent" only works here because == rgba(0,0,0,0) */ 
+			background-image: linear-gradient(to bottom, transparent, black);
+				background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, white));
+		}
+</style>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="js/jquery.min.js"></script>
+</head>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+	<script>
+		// DOM Ready
+		$(function() {
+		
+			var $el, $ps, $up, totalHeight;
+			
+			$(".sidebar-box .button").click(function() {
+			
+				// IE 7 doesn't even get this far. I didn't feel like dicking with it.
+						
+				totalHeight = 0
+			
+				$el = $(this);
+				$p  = $el.parent();
+				$up = $p.parent();
+				$ps = $up.find("p:not('.read-more')");
+				
+				// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
+				$ps.each(function() {
+					totalHeight += $(this).outerHeight();
+					// FAIL totalHeight += $(this).css("margin-bottom");
+				});
+							
+				$up
+					.css({
+						// Set height to prevent instant jumpdown when max height is removed
+						"height": $up.height(),
+						"max-height": 9999
+					})
+					.animate({
+						"height": totalHeight
+					});
+				
+				// fade out read-more
+				$p.fadeOut();
+				
+				// prevent jump-down
+				return false;
+					
+			});
+		
+		});
+	</script>
+
 <body>
 
  <div class="banner">
@@ -47,31 +119,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    <div class="content-top">
 		<div class="wrap">
 			<div class="content-topbox">
-				<div class="col_1_of_bottom span_1_of_last">
+				<div class="col_1_of_bottom span_1_of_bottom">
 					<img src="images/pic6.jpg" alt="">
-				     <div class="main_link1">
-						<h5>Lorem ipsum</h5>
-						<p>Choose from any of our extensive range </p>
-						<a href="#" class="btn-link2">read more</a>
+				     
+				     <div class="sidebar-box">
+						<h5>Why You Should Consider Hiring a BRIGHTON</h5>
+						<p>Your friends and family are not a substitute for a professional wedding planner - They have their own jobs and personal responsibilities to attend to, and may not have the time and energy to devote to your wedding.</p>
+						<p class="read-more"><a href="#" class="button">Read More</a></p>
 					</div>
 				</div>
+
 				<div class="col_1_of_bottom span_1_of_bottom">
 					<img src="images/pic7.jpg" alt="">
-				     <div class="main_link">
-						<h5>Lorem ipsum</h5>
-						<p>Choose from any of our extensive range </p>
-						<a href="#" class="btn-link1">read more</a>
-					</div>
 
-				  </div>
-				<div class="col_1_of_bottom span_1_of_bottom">
-					<img src="images/pic8.jpg" alt="">
-				     <div class="main_link">
-					<h5>Lorem ipsum</h5>
-						<p>Choose from any of our extensive range </p>
-						<a href="#" class="btn-link1">read more</a>
+				     <div class="sidebar-box">
+				     	<h5>Why Hire Us?</h5>
+						<p>Well-Coordinated Weddings - We maintain a very close customer relationship and make sure that all parties will always know what will happen next during the Wedding Day. </p>
+						<p class="read-more"><a href="#" class="button">Read More</a></p>
 					</div>
 				</div>
+
+				<div class="col_1_of_bottom span_1_of_bottom">
+					<img src="images/pic8.jpg" alt="">
+				     <div class="sidebar-box">
+				     	<h5>Packages</h5>
+						<p>Do you want a Creative wedding, Theme wedding, Budget Wedding Plan or just the Wedding Day Coordination; we’ve got the perfect package to suit your requirements. </p>
+						<p class="read-more"><a href="#" class="button">Read More</a></p>
+					</div>
+				</div>
+
 				  <div class="clear"></div>
 			</div>
 		</div>
