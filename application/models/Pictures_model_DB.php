@@ -21,10 +21,9 @@ class Pictures_model_DB extends CI_Model {
 
 
 	function getServicePicture($serviceId){
-		$this->db->where('serviceId',$serviceId);
+		$this->db->where('service_serviceId',$serviceId);
 		$query=$this->db->get('service_has_picture');
 		return $query->result();
-		
 	}
 
 	function getPictureByPicId($picId){

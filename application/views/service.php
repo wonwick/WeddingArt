@@ -26,17 +26,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="about-top">
 		<div class="wrap">
 			<div class="about-box">
-			   <div class="section group">
+			   <div class="section group" >
            <?php
-           foreach($poruDetails as $poru){
-             $url=$poru["url"];
-             $title= $poru["title"];
-             $description=$poru["description"];
-             echo "<div class='col_1_of_4 span_1_of_4'>
-                         <a class='fancybox' href=$url data-fancybox-group='gallery' title='Lorem ipsum dolor sit amet'><img src=$url alt='' style='width:100%'><span> </span></a>
+           foreach($serviceDetails as $service){
+             $url=$service["url"];
+             $title= $service["title"];
+             $description=$service["description"];
+             echo "<div class='col_1_of_4 span_1_of_4' name='currentService'	>
+                         <a class='fancybox' href=$url data-fancybox-group='gallery' title=$title ><img src=$url alt='' style='width:100%'><span> </span></a>
                    <div class='caption'>
                                  <h4>$title</h4>
                                  <p>$description</p>
+																 <div class='radio'>
+																 <label><input type='radio' name='optradio'	>$title</label>
+																 </div>
+
                                  <a href='#' class='btn1'>see more</a>
                              </div>
              </div>";
