@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Brighton Website Template | Contact :: w3layouts</title>
+<title>Wedding Art| Appointment</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   <div class="section group">
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
-				  	<h2>Contact Us</h2>
+				  	<h2>Place Appointment</h2>
 					    <form method="post" action="contact-post.html">
 					    	<div>
 						    	<span><label>Name</label></span>
