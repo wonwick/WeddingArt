@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Wedding Art | login</title>
+<title>Wedding Art| Appointment</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +21,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   <div class="section group">
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
-				  	<h2>loging</h2>
+				  	<h2>Place Appointment</h2>
+
 					    <form method="post" action="contact-post.html">
 					    	<div>
 						    	<span><label>Name</label></span>
@@ -32,13 +33,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						    	<span><input name="userEmail" type="text" class="textbox"></span>
 						    </div>
 						    <div>
-						     	<span><label>Mobile</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
+						     	<span><label>Mobile Number</label></span>
+						    	<span><input name="userPhone" type="number" class="textbox"></span>
 						    </div>
 						    <div>
-						    	<span><label>Subject</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
+						    	<span><label>Notes</label></span>
+						    	<span><textarea name="userNote"> </textarea></span>
 						    </div>
+                            <div>
+                                <span><label>Date</label></span>
+                                <span><input name="appDate" type="date" class="textbox"></span>
+                            </div>
 						   <div>
 						   		<span><input type="submit" value="Submit"></span>
 						  </div>
@@ -68,3 +73,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		 </div>
 	</div>
+	

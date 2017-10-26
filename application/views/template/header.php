@@ -1,10 +1,10 @@
-<?php echo base_url(); ?>
+
 <script src=<?php echo base_url();?>js/jquery.min.js></script>
 <div class="header">
 	<link rel="stylesheet" href=<?php echo base_url();?>css/style.css>
 		<div class="wrap">
 			<div class="logo">
-				<a href=<?php echo base_url(); ?>home><img src=<?php echo base_url();?>images/logo.png alt=""/></a>
+				<a href=<?php echo base_url(); ?>home><img src=<?php echo base_url();?>images/logonn.png alt=""/></a>
 			</div>
 			<div class="top-nav">
 				<div class="menu">
@@ -14,7 +14,8 @@
 						<li class=""><a href=<?php echo base_url(); ?>about>About</a></li>
 						<li class=""><a href=<?php echo base_url(); ?>services>Services</a></li>
 						<li class=""><a href=<?php echo base_url(); ?>gallery>Gallery</a></li>
-						<li class=""><a href=<?php echo base_url(); ?>contact>Contact</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>appointment>Appointment</a></li>
+                        <li class=""><a href=<?php echo base_url(); ?>login>Login</a></li>
 					</ul>
 					<div class="clear"></div>
 	   		  	</div>

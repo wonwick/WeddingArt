@@ -20,7 +20,7 @@
 						<h3>Testimonials</h3>
 						<div class="Testimonials_desc">
 						<p><span class="up"><img src="images/quotes.png" alt=""></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="down"><img src="images/quotes-down.png" alt=""></span></p>
-					    <h5>- Lorem ipsum dolor</h5>
+					    <h5>- All About Wedding</h5>
 					   </div>
 					</div>
 						<div class="col_1_of_footer span_1_of_footer">
@@ -37,7 +37,7 @@
 		   </div>
 		        <div class="copy-right">
 					<div class="wrap">
-			           <p class="copy"><span>Brighton</span> � All Rights Reseverd</p> <p class="design"><a href=<?php echo base_url(); ?>StaffLogin>Staff Login</a></p>
+			           <p class="copy"><span>WeddingArt    </span>   All Rights Reseverd</p> <p class="design"><a href=<?php echo base_url(); ?>StaffLogin>Staff Login</a></p>
 		               <div class="clear"></div>
 		            </div>
 		       </div>

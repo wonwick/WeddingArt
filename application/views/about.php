@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Brighton Website Template | About :: w3layouts</title>
+<title>Wedding Art | About</title>
 <style type="text/css">
 	.sidebar-box {
 			max-height: 120px;

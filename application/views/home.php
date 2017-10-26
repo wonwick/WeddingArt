@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Brighton Website Template | Home :: w3layouts</title>
+<title>Wedding Art-All About Wedding</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -123,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<img src="images/pic6.jpg" alt="">
 				     
 				     <div class="sidebar-box">
-						<h5>Why You Should Consider Hiring a BRIGHTON</h5>
+						<h5>Why You Should Consider Hiring a WeddingArt</h5>
 						<p>Your friends and family are not a substitute for a professional wedding planner - They have their own jobs and personal responsibilities to attend to, and may not have the time and energy to devote to your wedding.</p>
 						<p class="read-more"><a href="#" class="button">Read More</a></p>
 					</div>
