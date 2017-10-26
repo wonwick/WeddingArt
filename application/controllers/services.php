@@ -61,6 +61,21 @@ class services extends CI_Controller {
 
 	}
 
+	public function photoAndVideoAlbums()
+	{
+		$this->load->helper('url');
+		$baseUrl=base_url();
+		$this->load->Model("Service_model_DB");
+		$serviceDetails=$this->Service_model_DB->getAlbumDetail();
+		$data["serviceDetails"]=$serviceDetails;
+		$this->load->helper('url');
+		$this->load->view('template/header');
+		$this->load->view('services');
+		$this->load->view('service',$data);
+		$this->load->view('template/footer');
+
+	}
+
 
 		public function exp()
 		{

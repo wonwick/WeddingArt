@@ -8,71 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>Free Brighton Website Template | Services :: w3layouts</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href=<?php echo base_url();?>css/style.css rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script src=<?php echo base_url();?>js/jquery.min.js></script>
-<link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+<link type="text/css" rel="stylesheet" href=<?php echo base_url();?>css/lightslider.css />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src=<?php echo base_url();?>js/lightslider.js></script>
-<style>
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-}
-
-/* Center website */
-.main {
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 50px;
-    word-break: break-all;
-}
-
-.row {
-    margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-    padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Content */
-.content {
-    background-color: white;
-    padding: 10px;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-</style>
-
 
 </head>
 <body>
@@ -82,7 +24,6 @@ h1 {
 				<div class="wrap">
 					<div class	="box-unit"><h1>How we can help you?</h1><p>Sed ut perspiciatis unde oiste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nem ipsam voluptatem quia voluptas sit aspernatur aut. </p></div>
 
-				</div>
 				<!-- description end-->
 <!-- services in brief -->
 			<div class="about-box">
@@ -99,9 +40,9 @@ h1 {
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
-							<a href=<?php echo base_url();?>services>
+							<a href=<?php echo base_url();?>services/photoAndVideoAlbums>
 						  <div class="grid_icon"><img src=<?php echo base_url();?>images/flower.png alt=""/></div>
-								<h3>Photography/videography</h3>
+								<h3>Photo/video Albums</h3>
 							</a>
 						</div>
 						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
@@ -112,7 +53,7 @@ h1 {
 
 						  <div class="grid_icon"><img src=<?php echo base_url();?>images/cake.png alt=""/></div>
 
-								<h3>dancing & performances</h3>
+								<h3>traditional activities</h3>
 
 						</a>
 						</div>

@@ -51,12 +51,26 @@ class Image_uploader extends CI_Controller {
             echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
             //updating database about new pic
             $this->load->Model("Pictures_model_DB");
+						$this->load->Model("Service_model_DB");
+
             $data=array();
             $data["title"]=$_POST["title"];
             $data["description"]=$_POST["description"];
             $data["tags"]=$_POST["tags"];
             $data["url"]=$target_dir.$newPictureName;
-            $data=$this->Pictures_model_DB->insertPictue($data);
+						$serviceData["title"]=$_POST["ServiceTitle"];
+						$serviceData["type"]=$_POST["ServiceType"];
+						$serviceData["description"]=$_POST["ServiceDescription"];
+            $this->Pictures_model_DB->insertPictue($data);
+						$this->Service_model_DB->addService($serviceData);
+						$currentService=$this->Service_model_DB->getCurrentService();
+						$curServId=$currentService[0]->serviceId;
+						$servicePicData=array();
+						$servicePicData["service_serviceId"]=$curServId;
+						$servicePicData["picture_picId"]=$newPicId;
+						$this->Pictures_model_DB->insertServicePicture($servicePicData);
+
+
 
 
 

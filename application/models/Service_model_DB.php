@@ -24,6 +24,13 @@ class Service_model_DB extends CI_Model {
 		$this->db->insert('picture');
 	}
 
+	function addService($data){
+		foreach($data as $key => $value) {
+			$this->db->set($key,$value);
+		}
+		$this->db->insert('service');
+	}
+
 	function getServiceDetails($i){
 		$this->load->helper('url');
 		$baseUrl=base_url();
@@ -43,7 +50,7 @@ class Service_model_DB extends CI_Model {
 				$picId=$roww->picture_picId;
 				$pic=$this->Pictures_model_DB->getPictureByPicId($picId)[0];
 				$url=$pic->url;
-				$serviceDetails=array("url"=>$baseUrl.$url,"title"=>$title,"description"=>$description);
+				$serviceDetails=array("url"=>$baseUrl.$url,"title"=>$title,"description"=>$description,"serviceId"=>$serviceId);
 				array_push($data,$serviceDetails);
 			}
 		}
@@ -64,6 +71,14 @@ class Service_model_DB extends CI_Model {
 
 	function getPerformerDetail(){
 		  return $this->getServiceDetails(4);
+	}
+
+	function getCurrentService(){
+		$this->db->select_max('serviceId');
+		$query=$this->db->get('service');
+		$query->result();
+		return $query->result();
+
 	}
 
 

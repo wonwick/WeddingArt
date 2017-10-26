@@ -39,6 +39,14 @@ class Pictures_model_DB extends CI_Model {
 		$this->db->insert('picture');
 	}
 
+	function insertServicePicture($data){
+		foreach($data as $key => $value) {
+			$this->db->set($key,$value);
+		}
+		$this->db->insert('service_has_picture');
+	}
+
+
 
 
 }

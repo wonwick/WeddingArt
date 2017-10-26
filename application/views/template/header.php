@@ -1,4 +1,3 @@
-<?php echo base_url(); ?>
 <script src=<?php echo base_url();?>js/jquery.min.js></script>
 <div class="header">
 	<link rel="stylesheet" href=<?php echo base_url();?>css/style.css>
