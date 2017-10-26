@@ -50,58 +50,43 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="content-middle">
 		<div class="wrap">
 			<div class="section group">
-				<div class="lsidebar span_1_of_3">
-				      <h3><span>Welcome</span></h3>
-				      <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
-					  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla Ut wisi enim ad minimLorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
-				</div>
-					<div class="cont span_2_of_3">
-				       <div class="section group example">
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src=<?php echo base_url();?>images/list-img.png>
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim  </p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src=<?php echo base_url();?>images/list-img1.png>
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim </p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-		    			</div>
-		    			 <div class="section group example">
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src=<?php echo base_url();?>images/ring.png>
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim</p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src=<?php echo base_url();?>images/gift.png>
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim veniam</p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-		    			</div>
-				    </div>
-				     <div class="clear"></div>
-		   		</div>
+				<div class="container">
+  <h2>Image Gallery</h2>
+  <p>The .thumbnail class can be used to display an image gallery.</p>
+  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/lights.jpg" target="_blank">
+          <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/nature.jpg" target="_blank">
+          <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="/w3images/fjords.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 		</div>
 	</div>

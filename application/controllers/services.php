@@ -8,8 +8,7 @@ class services extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('template/header');
 		$this->load->view('services');
-		//$this->load->view('poruAndSeteebacks.php');
-		$this->load->view('middleContent.php');
+		//$this->load->view('selectedService.php');
 		$this->load->view('template/footer');
 	}
 
