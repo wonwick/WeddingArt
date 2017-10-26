@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="wrap">
 			<!-- description -->
 				<div class="wrap">
-					<div class	="box-unit"><h1>How we can help you?</h1><p>Sed ut perspiciatis unde oiste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nem ipsam voluptatem quia voluptas sit aspernatur aut. </p></div>
+					<div class	="box-unit"><h1>How we can help you?</h1><p>We have helped hundreds of customers to put on their perfect wedding. We think we can help you with our Experiance and services</p></div>
 
 				<!-- description end-->
 <!-- services in brief -->
@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<h3>Poru & Seteebacks        </h3>
 							</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"><p align=center>Poruwa is the Srilankan traditional wedding icon. We have decorated hundreds of wedding with our unique, tradional none traditional poru and settee backs</p></div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
@@ -45,7 +45,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<h3>Photo/video Albums</h3>
 							</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"><p align=center>We have being practicing photograpy and videography for decades. Now you can choose our finest, latest designs of photography and videography albums here.</p> </div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
@@ -57,7 +57,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 						</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"><p align=center>In tradional wedding poruwa Ceremony is a must.Traditional Knadiyan dancings is always an eyecatching event. We have the best experianced personals.</p></div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
@@ -69,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 						</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"><p align=center>with over hundred designs of wedding cards and cakeboxes you can find you dream wedding cards and cake boxes. We can garentee the fast and acurate delivery </p></div>
 					</div>
 					<div class="clear"></div>
 				</div>

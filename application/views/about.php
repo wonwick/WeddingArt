@@ -16,15 +16,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			overflow: hidden;
 		}
 
-	.sidebar-box .read-more { 
-			position: absolute; 
+	.sidebar-box .read-more {
+			position: absolute;
 			bottom: 0; left: 0;
-			width: 100%; 
-			text-align: center; 
-			margin: 0; 
-			padding: 30px 0 30px 0; 
-			
-			/* "transparent" only works here because == rgba(0,0,0,0) */ 
+			width: 100%;
+			text-align: center;
+			margin: 0;
+			padding: 30px 0 30px 0;
+
+			/* "transparent" only works here because == rgba(0,0,0,0) */
 			background-image: linear-gradient(to bottom, transparent, black);
 				background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, white));
 		}
@@ -38,26 +38,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script>
 		// DOM Ready
 		$(function() {
-		
+
 			var $el, $ps, $up, totalHeight;
-			
+
 			$(".sidebar-box .button").click(function() {
-			
+
 				// IE 7 doesn't even get this far. I didn't feel like dicking with it.
-						
+
 				totalHeight = 0
-			
+
 				$el = $(this);
 				$p  = $el.parent();
 				$up = $p.parent();
 				$ps = $up.find("p:not('.read-more')");
-				
+
 				// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
 				$ps.each(function() {
 					totalHeight += $(this).outerHeight();
 					// FAIL totalHeight += $(this).css("margin-bottom");
 				});
-							
+
 				$up
 					.css({
 						// Set height to prevent instant jumpdown when max height is removed
@@ -67,15 +67,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					.animate({
 						"height": totalHeight
 					});
-				
+
 				// fade out read-more
 				$p.fadeOut();
-				
+
 				// prevent jump-down
 				return false;
-					
+
 			});
-		
+
 		});
 	</script>
 <body>
@@ -96,17 +96,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							   <div class="grid images_3_of_1">
 								<img src="images/pic.jpg" alt="">
 								</div>
-								
+
 									<div class="grid span_2_of_1">
 										<h4>Welcome To BRIGHTON </h4>
-											 
+
 									          <div class="sidebar-box">
 									          	<p>Our Wedding Sri Lanka is the most innovative and the leading Wedding Planner especially for Local and Destination Weddings in Sri Lanka</p>
 											<p>Traditionally, planning a wedding has always been a long process which involves a lot of time, money, effort, stress and high risks. Our Wedding Sri Lanka provides a key role in making sure that you enjoy your wedding day as you have dreamed of, and we will make sure that all things will go smoothly according to the plan.</p>
 									        <p>Our Wedding Sri Lanka is the dream of Lucky Arsacularatne that became a reality in 2007. Lucky’s vision was to establish the first one stop shop for weddings in Sri Lanka that embodied the highest standards of quality and service. Subsequently, Our Wedding Sri Lanka’s team of Wedding Planners have been incorporating the elements of artistic flair, superb organizational skills and budget management control to create the wedding visions of their clientele.</p>
-    										<p>Lucky Arsacularatne was an Overhead Controller at Brandix Group. He has worked in the BPO Industry and Forex markets and was a Quantum Programmer. He was an Event Coordinator of CHOGM (Commonwealth Heads of Government Meeting) 2013, handling the Opening Ceremony, Business Forum, Exhibition and Tour Operator Familiarizing Programs (FAM Tours). Furthermore he was an Event Consultant for the launch of Infotel Exhibition 2015.</p> 
+    										<p>Lucky Arsacularatne was an Overhead Controller at Brandix Group. He has worked in the BPO Industry and Forex markets and was a Quantum Programmer. He was an Event Coordinator of CHOGM (Commonwealth Heads of Government Meeting) 2013, handling the Opening Ceremony, Business Forum, Exhibition and Tour Operator Familiarizing Programs (FAM Tours). Furthermore he was an Event Consultant for the launch of Infotel Exhibition 2015.</p>
 								         	  <p class="read-more"><a href="#" class="button">Read More</a></p>
-								         	  
+
 
 								         </div>
 							   		</div>
@@ -118,7 +118,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <li>
                             	<div class="sidebar-box">
                                 <h3>Our Company</h3>
-                                <p>In the field of Wedding and Event Management in Sri Lanka, Magical Moments has carved its place as a professional service provider with an inimitable focus on customization, creativity & originality. Our forte in Wedding & Event planning lies in knitting together delicate ideas and weaving them into a perfectly executed event. Be it an event for 50 or 500 guests, your ideas will become our inspiration and that is what will result in a truly momentous celebration. Our wide range of networked partnerships mean that end of the day, our clients enjoy the best benefits- and most savings. 
+                                <p>In the field of Wedding and Event Management in Sri Lanka, Magical Moments has carved its place as a professional service provider with an inimitable focus on customization, creativity & originality. Our forte in Wedding & Event planning lies in knitting together delicate ideas and weaving them into a perfectly executed event. Be it an event for 50 or 500 guests, your ideas will become our inspiration and that is what will result in a truly momentous celebration. Our wide range of networked partnerships mean that end of the day, our clients enjoy the best benefits- and most savings.
 Our philosophy is simple. Intricate planning - personalized touch - perfect execution - professional service. To experience it first hand,do give us a call.</p>
                             	<p class="read-more"><a href="#" class="button">Read More</a></p>
                             </li>
@@ -140,64 +140,6 @@ Our philosophy is simple. Intricate planning - personalized touch - perfect exec
                         </ul>
 						</div>
 					   <div class="clear"></div>
-		   		</div>
-		</div>
-	</div>
-	<div class="content-middle">
-		<div class="wrap">
-			<div class="section group">
-				<div class="lsidebar span_1_of_3">
-				      <h3><span>Welcome</span></h3>
-				      <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
-					  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla Ut wisi enim ad minimLorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
-				</div>
-					<div class="cont span_2_of_3">
-				       <div class="section group example">
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src="images/list-img.png">
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim </p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src="images/list-img1.png">
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim </p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-		    			</div>
-		    			 <div class="section group example">
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src="images/ring.png">
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim</p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-							<div class="col_1_of_2 span_1_of_2">
-							<div class="icon">
-								<img src="images/gift.png">
-							</div>
-							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim veniam</p>
-			 				   </div>
-			 				   <div class="clear"></div>
-			 				</div>
-		    			</div>
-				    </div>
-				     <div class="clear"></div>
 		   		</div>
 		</div>
 	</div>
