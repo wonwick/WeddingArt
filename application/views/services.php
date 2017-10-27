@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src=<?php echo base_url();?>js/jquery.min.js></script>
+<script src="js/jquery.min.js"></script>
 <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/lightslider.js"></script>
@@ -91,7 +91,7 @@ h1 {
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
 							<a href=<?php echo base_url();?>about>
-						  <div class="grid_icon"><img src=<?php echo base_url();?>images/heart.png alt=""/></div>
+						  <div class="grid_icon"><img src="images/heart.png" alt=""/></div>
 								<h3>Poru & Seteebacks        </h3>
 							</a>
 						</div>
@@ -100,7 +100,7 @@ h1 {
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
 							<a href=<?php echo base_url();?>about>
-						  <div class="grid_icon"><img src=<?php echo base_url();?>images/flower.png alt=""/></div>
+						  <div class="grid_icon"><img src="images/flower.png" alt=""/></div>
 								<h3>Photography/videography</h3>
 							</a>
 						</div>
@@ -110,7 +110,7 @@ h1 {
 						<div class="bottom-grid">
 							<a href=<?php echo base_url();?>about>
 
-						  <div class="grid_icon"><img src=<?php echo base_url();?>images/cake.png alt=""/></div>
+						  <div class="grid_icon"><img src="images/cake.png" alt=""/></div>
 
 								<h3>dancing & performances</h3>
 
@@ -122,7 +122,7 @@ h1 {
 						<div class="bottom-grid">
 							<a href=<?php echo base_url();?>about>
 
-						  <div class="grid_icon"><img src=<?php echo base_url();?>images/heart1.png alt=""/></div>
+						  <div class="grid_icon"><img src="images/heart1.png" alt=""/></div>
 
 								<h3>cards & cake boxes</h3>
 

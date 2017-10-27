@@ -12,8 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- light-box -->
-<script src=<?php echo base_url();?>js/jquery.min.js></script>
-<script type="text/javascript" src=<?php echo base_url();?>js/jquery.fancybox.js></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
 <script type="text/javascript">
 		$(document).ready(function() {
@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="about-box">
 			   <div class="section group">
 				<div class="col_1_of_4 span_1_of_4">
-					    <a class="fancybox" href="images/t-pic2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic2.jpg alt=""><span> </span></a>
+					    <a class="fancybox" href="images/t-pic2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic2.jpg" alt=""><span> </span></a>
 					    <div class="caption">
                             <h4>Pellentesque sed dolor.</h4>
                             <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					    <a class="fancybox" href="images/t-pic3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic3.jpg alt=""><span> </span></a>
+					    <a class="fancybox" href="images/t-pic3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic3.jpg" alt=""><span> </span></a>
 					    <div class="caption">
                             <h4>Pellentesque sed dolor.</h4>
                             <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
@@ -44,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					    <a class="fancybox" href="images/t-pic4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic4.jpg alt=""><span> </span></a>
+					    <a class="fancybox" href="images/t-pic4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic4.jpg" alt=""><span> </span></a>
 					    <div class="caption">
                             <h4>Pellentesque sed dolor.</h4>
                             <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
@@ -52,7 +52,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					    <a class="fancybox" href="images/t-pic5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic5.jpg alt=""><span> </span></a>
+					    <a class="fancybox" href="images/t-pic5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic5.jpg" alt=""><span> </span></a>
 					    <div class="caption">
                             <h4>Pellentesque sed dolor.</h4>
                             <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
@@ -69,27 +69,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="section group">
 				<div class="lsidebar span_1_of_3">
 				      <h3><span>Welcome</span></h3>
-				      <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</h3>
-					  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla Ut wisi enim ad minimLorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
-				</div>
+				      <h3>Traditionally, planning a wedding has always been a long process which involves a lot of time, money, effort, stress and high risks. Our Wedding Sri Lanka provides a key role in making sure that you enjoy your wedding day as you have dreamed of, and we will make sure that all things will go smoothly according to the plan.</h3>
+					  <p>Our Wedding Sri Lanka is the dream of Lucky Arsacularatne that became a reality in 2007. Lucky’s vision was to establish the first one stop shop for weddings in Sri Lanka that embodied the highest standards of quality and service. Subsequently, Our Wedding Sri Lanka’s team of Wedding Planners have been incorporating the elements of artistic flair, superb organizational skills and budget management control to create the wedding visions of their clientele.</p>
+				/div>
 					<div class="cont span_2_of_3">
 				       <div class="section group example">
 							<div class="col_1_of_2 span_1_of_2">
 							<div class="icon">
-								<img src=<?php echo base_url();?>images/list-img.png>
+								<img src="images/list-img.png">
 							</div>
 							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
+							   <h3><a href="#">PORU & SETEEBACKS</a></h3>
 							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim  </p>
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
 							<div class="col_1_of_2 span_1_of_2">
 							<div class="icon">
-								<img src=<?php echo base_url();?>images/list-img1.png>
+								<img src="images/list-img1.png">
 							</div>
 							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
+							   <h3><a href="#">DANSING & PERFORMANCES</a></h3>
 							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim </p>
 			 				   </div>
 			 				   <div class="clear"></div>
@@ -98,20 +98,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    			 <div class="section group example">
 							<div class="col_1_of_2 span_1_of_2">
 							<div class="icon">
-								<img src=<?php echo base_url();?>images/ring.png>
+								<img src="images/ring.png">
 							</div>
 							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
+							   <h3><a href="#">CARD & CAKE BOXES</a></h3>
 							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim</p>
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
 							<div class="col_1_of_2 span_1_of_2">
 							<div class="icon">
-								<img src=<?php echo base_url();?>images/gift.png>
+								<img src="images/gift.png">
 							</div>
 							  <div class="heading">
-							   <h3><a href="#">Lorem ipsum dolor</a></h3>
+							   <h3><a href="#">PHOTOGRAPHY/VIDEOGRAPHY</a></h3>
 							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim veniam</p>
 			 				   </div>
 			 				   <div class="clear"></div>
