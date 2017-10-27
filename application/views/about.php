@@ -118,7 +118,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <li>
                             	<div class="sidebar-box">
                                 <h3>Our Company</h3>
-                                <p>In the field of Wedding and Event Management in Sri Lanka, Magical Moments has carved its place as a professional service provider with an inimitable focus on customization, creativity & originality. Our forte in Wedding & Event planning lies in knitting together delicate ideas and weaving them into a perfectly executed event. Be it an event for 50 or 500 guests, your ideas will become our inspiration and that is what will result in a truly momentous celebration. Our wide range of networked partnerships mean that end of the day, our clients enjoy the best benefits- and most savings.
+                                <p>In the field of Wedding and Event Management in Sri Lanka, BRIGHTON has carved its place as a professional service provider with an inimitable focus on customization, creativity & originality. Our forte in Wedding & Event planning lies in knitting together delicate ideas and weaving them into a perfectly executed event. Be it an event for 50 or 500 guests, your ideas will become our inspiration and that is what will result in a truly momentous celebration. Our wide range of networked partnerships mean that end of the day, our clients enjoy the best benefits- and most savings.
 Our philosophy is simple. Intricate planning - personalized touch - perfect execution - professional service. To experience it first hand,do give us a call.</p>
                             	<p class="read-more"><a href="#" class="button">Read More</a></p>
                             </li>
