@@ -30,32 +30,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col_1_of_4 span_1_of_4">
 					    <a class="fancybox" href="images/t-pic2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic2.jpg alt=""><span> </span></a>
 					    <div class="caption">
-                            <h4>Pellentesque sed dolor.</h4>
-                            <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
+                            <h4>Udani & Saminda</h4>
+                            <p></p>
                             <a href="#" class="btn1">read more</a>
                         </div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					    <a class="fancybox" href="images/t-pic3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic3.jpg alt=""><span> </span></a>
 					    <div class="caption">
-                            <h4>Pellentesque sed dolor.</h4>
-                            <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
+                            <h4>Chamathka & Roshan</h4>
+                            <p></p>
                             <a href="#" class="btn1">read more</a>
                         </div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					    <a class="fancybox" href="images/t-pic4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic4.jpg alt=""><span> </span></a>
 					    <div class="caption">
-                            <h4>Pellentesque sed dolor.</h4>
-                            <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
+                            <h4>Meleza & Saman</h4>
+                            <p></p>
                              <a href="#" class="btn1">read more</a>
                         </div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					    <a class="fancybox" href="images/t-pic5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src=<?php echo base_url();?>images/pic5.jpg alt=""><span> </span></a>
 					    <div class="caption">
-                            <h4>Pellentesque sed dolor.</h4>
-                            <p>augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim sed do eiusmod tempor incididunt ut.</p>
+                            <h4>Hollee & Amindra</h4>
+                            <p></p>
                             <a href="#" class="btn1">read more</a>
                         </div>
 				</div>
