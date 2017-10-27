@@ -27,7 +27,7 @@
 						    </div>
 						    <div>
 						     	<span><label>Contact Number</label></span>
-						    	<span><input name="userPhone" type="text" class="form-control" required=" "></span>
+						    	<span><input name="userPhone" type="number" class="form-control" required=" "></span>
 								<?php echo form_error('userPhone'); ?>
 						    </div>
 						    <div>

@@ -24,6 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="about-box">
 			   <div class="section group">
 			   <?php require('contact-form.php')?>
+
 				<div class="col span_1_of_contact">
 					<div class="contact_info">
     	 				<h2>Find Us Here</h2>
