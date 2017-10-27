@@ -25,7 +25,6 @@ class services extends CI_Controller {
 		$this->load->view('services');
 		$this->load->view('service',$data);
 		$this->load->view('template/footer');
-
 	}
 
 	public function poruAndSeteebacks()
@@ -38,7 +37,6 @@ class services extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('template/header');
 		$this->load->view('services');
-
 		$this->load->view('service',$data);
 		$this->load->view('template/footer');
 
@@ -83,6 +81,7 @@ class services extends CI_Controller {
 
 
 		}
+
 
 
 }

@@ -1,0 +1,74 @@
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ input[type=text] {
+     width: 130px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+     font-size: 16px;
+     background-color: white;
+     background-image: url('searchicon.png');
+     background-position: 10px 10px;
+     background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+     -webkit-transition: width 0.4s ease-in-out;
+     transition: width 0.4s ease-in-out;
+ }
+
+ input[type=text]:focus {
+     width: 100%;
+ }
+ </style>
+ </head>
+ <body>
+<div class="container">
+ <form action="changePics" method="post"  >
+   <br>
+   <input type="text" name="searchKeys" placeholder="search....">
+   <input type="submit" style="visibility: hidden;" />
+
+ </form>
+ </div>
+
+ </body>
+ </html>
+
+
+
+ <div class="container">
+  <h4>Image results..</h4>
+  <br>
+  <div class='row'>
+  <?php
+  $baseUrl=base_url();
+  foreach($matches as $pics){
+    $picTitle=$pics["title"];
+    $picId=$pics["picId"];
+    $picUrl=$baseUrl.$pics["url"];
+    $picDes=$pics["description"];
+
+    echo "
+      <div class='col-md-4'>
+        <div class='thumbnail'>
+          <a href=$picUrl target='_blank'>
+            <img src=$picUrl alt='Lights' style='width:100%'>
+            <div class='caption'>
+              <h4>$picTitle</h4>
+              <p>$picDes</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    ";
+  }
+  ?>
+  </div>
+</div>
