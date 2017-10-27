@@ -156,9 +156,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="wrap">
 			<div class="section group">
 				<div class="lsidebar span_1_of_3">
+					
 				      <h3><span>Welcome</span></h3>
+
 				      <h3>Traditionally, planning a wedding has always been a long process which involves a lot of time, money, effort, stress and high risks. Our Wedding Sri Lanka provides a key role in making sure that you enjoy your wedding day as you have dreamed of, and we will make sure that all things will go smoothly according to the plan.</h3>
-					  <p>Our Wedding Sri Lanka is the dream of Lucky Arsacularatne that became a reality in 2007. Lucky’s vision was to establish the first one stop shop for weddings in Sri Lanka that embodied the highest standards of quality and service. Subsequently, Our Wedding Sri Lanka’s team of Wedding Planners have been incorporating the elements of artistic flair, superb organizational skills and budget management control to create the wedding visions of their clientele.</p>
+					  <p></p>
+					
 				</div>
 					<div class="cont span_2_of_3">
 				       <div class="section group example">
@@ -168,7 +171,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							  <div class="heading">
 							   <h3><a href="#">PORU & SETEEBACKS</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim </p>
+							   <p></p>
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
@@ -178,7 +181,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							  <div class="heading">
 							   <h3><a href="#">DANSING & PERFORMANCES</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim </p>
+							   <p></p>
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
@@ -190,7 +193,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							  <div class="heading">
 							   <h3><a href="#">CARD & CAKE BOXES</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim</p>
+							   <p></p>
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>
@@ -200,7 +203,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							  <div class="heading">
 							   <h3><a href="#">PHOTOGRAPHY/VIDEOGRAPHY</a></h3>
-							   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut wisi enim ad minim veniam</p>
+							   <p></p>
 			 				   </div>
 			 				   <div class="clear"></div>
 			 				</div>

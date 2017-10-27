@@ -80,7 +80,8 @@ h1 {
 		<div class="wrap">
 			<!-- description -->
 				<div class="wrap">
-					<div class	="box-unit"><h1>How we can help you?</h1><p>Sed ut perspiciatis unde oiste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nem ipsam voluptatem quia voluptas sit aspernatur aut. </p></div>
+					<div class	="box-unit"><h1>How we can help you?</h1>
+						<p>With our eye for detail, Siritha Wedding Planner in Sri Lanka will look after every requirement that counts for a picture-perfect wedding. From consultation to complete wedding planning, we undertake a function of any size, scheduled to take place in any location. Perhaps, for us, it only takes the bride and groom, everything else is noted in our plan.</p></div>
 
 				</div>
 				<!-- description end-->
@@ -95,7 +96,7 @@ h1 {
 								<h3>Poru & Seteebacks        </h3>
 							</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"></div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
@@ -104,7 +105,7 @@ h1 {
 								<h3>Photography/videography</h3>
 							</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"> </div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
@@ -116,7 +117,7 @@ h1 {
 
 						</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"></div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">
@@ -128,7 +129,7 @@ h1 {
 
 						</a>
 						</div>
-						<div class="service-box">Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, lesuada at, neque. Viv eget nibh. Etam cus. Nulla facilisi. Aenean nec eros. Vestibulum ante. </div>
+						<div class="service-box"> </div>
 					</div>
 					<div class="clear"></div>
 				</div>
