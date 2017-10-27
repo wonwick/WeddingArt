@@ -11,12 +11,10 @@
 				<span class="menu"> </span>
 			   		<ul>
 						<li><a href=<?php echo base_url(); ?>home>Home</a></li>
-						<li class=""><a href=<?php echo base_url(); ?>about>About</a></li>
-						<li class=""><a href=<?php echo base_url(); ?>services>Services</a></li>
-						<li class=""><a href=<?php echo base_url(); ?>gallery>Gallery</a></li>
-						<li class=""><a href=<?php echo base_url(); ?>contact>Appointment</a></li>
-                        <li class=""><a href=<?php echo base_url(); ?>users/login>Login</a></li>
-                        <li class=""><a href=<?php echo base_url(); ?>users/registration>Register</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>changePics>Manage Pictures</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>Upload_image>Add Services</a></li>
+						<li class=""><a href=<?php echo base_url(); ?>home>User View</a></li>
+                        <li class=""><a href=<?php echo base_url(); ?>users/logut>Logout</a></li>
 					</ul>
 					<div class="clear"></div>
 	   		  	</div>
