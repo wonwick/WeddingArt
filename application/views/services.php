@@ -45,7 +45,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<h3>Photo/video Albums</h3>
 							</a>
 						</div>
-						<div class="service-box"><p align=center>We have being practicing photograpy and videography for decades. Now you can choose our finest, latest designs of photography and videography albums here.</p> </div>
+						<div class="service-box"><p align=center>We have being practicing photograpy and videography for decades. Now you can choose from our finest, latest designs photo/video albums here.</p> </div>
 					</div>
 					<div class="col_1_of_4 span_1_of_4">
 						<div class="bottom-grid">

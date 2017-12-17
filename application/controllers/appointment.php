@@ -17,3 +17,4 @@ public function index()
     $this->load->view('template/footer');
 }
 }
+

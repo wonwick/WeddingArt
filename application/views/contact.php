@@ -11,7 +11,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="js/jquery.min.js"></script>
+<script src="<?php echo base_url();?>assert/js/jquery.min.js"></script>
+
+<!--import bootstrap-->
+<link rel="stylesheet" href="<?php echo base_url();?>assert/css/bootstrap.css">
+
 </head>
 <body>
 
@@ -19,32 +23,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="wrap">
 			<div class="about-box">
 			   <div class="section group">
-				<div class="col span_2_of_3">
-				  <div class="contact-form">
-				  	<h2>Place Appointment</h2>
-					    <form method="post" action="contact-post.html">
-					    	<div>
-						    	<span><label>Name</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-Mail</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>Mobile</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>Subject</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<span><input type="submit" value="Submit"></span>
-						  </div>
-					    </form>
-				  </div>
-  				</div>
+
 				<div class="col span_1_of_contact">
 					<div class="contact_info">
     	 				<h2>Find Us Here</h2>
@@ -68,4 +47,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		 </div>
 	</div>
-	
