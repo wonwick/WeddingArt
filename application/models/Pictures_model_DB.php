@@ -40,6 +40,7 @@ class Pictures_model_DB extends CI_Model {
 			$pictureDetails["picId"]=$picture[0]->picId;
 			$pictureDetails["title"]=$picture[0]->title;
 			$pictureDetails["description"]=$picture[0]->description;
+			$pictureDetails["url"]=$picture[0]->url;
 			array_push($data,$pictureDetails);
 		}
 		return $data;
@@ -72,7 +73,25 @@ class Pictures_model_DB extends CI_Model {
 		$this->db->insert('service_has_picture');
 	}
 
+	function addCarousalPictue($picId){
+		$this->db->where('picture_picId',$picId);
+   	$q = $this->db->get('carousel');
+		if ( $q->num_rows() > 0 ) {
+			echo "<script type='text/javascript'>alert('picture was already Added!')</script>";
+		}
 
+		else{
+		$this->db->set("picture_picId",$picId);
+		$this->db->insert('carousel');
+		echo "<script type='text/javascript'>alert('picture was successfully Added!')</script>";
+		}
+	}
+	function removeCarousalPictue($picId){
+		$this->db->where('picture_picId', $picId);
+   	$this->db->delete('carousel');
+		echo "<script type='text/javascript'>alert('picture was successfully removed from carousel!')</script>";
+
+	}
 
 
 

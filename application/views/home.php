@@ -109,10 +109,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  <div class="banner">
 	    <div class="flexslider">
 	          <ul class="slides">
-	            <li><img src="images/banner1.jpg" alt=""/></li>
-	  	    	<li><img src="images/banner2.jpg"  alt=""/></li>
-	  	    	<li><img src="images/banner3.jpg"  alt=""/></li>
-	  	    	<li><img src="images/banner4.jpg"  alt=""/></li>
+              <?php
+                foreach($curPicData as $caroPic){
+            			$picUrl=$caroPic["url"];
+                  echo "<li><img src='$picUrl' alt=''/></li>";
+                }
+                  ?>
 	          </ul>
 	    </div>
    </div>

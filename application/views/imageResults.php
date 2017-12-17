@@ -30,7 +30,7 @@
  </head>
  <body>
 <div class="container">
- <form action="changePics" method="post"  >
+ <form action="<?php echo base_url();?>changePics" method="post"  >
    <br>
    <input type="text" name="searchKeys" placeholder="search....">
    <input type="submit" style="visibility: hidden;" />
@@ -43,10 +43,11 @@
 
 
 
+
  <div class="container">
   <h4>Image results..</h4>
   <br>
-  <div class='row'>
+
   <?php
   $baseUrl=base_url();
   foreach($matches as $pics){
@@ -54,21 +55,28 @@
     $picId=$pics["picId"];
     $picUrl=$baseUrl.$pics["url"];
     $picDes=$pics["description"];
+    $picId=$pics["picId"];
+    $submitUrl=$baseUrl."changePics/addPic";
 
     echo "
-      <div class='col-md-4'>
+      <div class='col-md-4' id='id$picId'>
         <div class='thumbnail'>
           <a href=$picUrl target='_blank'>
-            <img src=$picUrl alt='Lights' style='width:100%'>
+            <img src=$picUrl alt='Lights' style='width:100% hight; height:250px;'>
             <div class='caption'>
               <h4>$picTitle</h4>
               <p>$picDes</p>
             </div>
+
+
           </a>
+          <form action='$submitUrl' method='post'>
+          <button type='submit' name='addPicButton' value='$picId' class='btn btn-primary'>add</button>
+          </form>
         </div>
-      </div>
-    ";
+
+      </div>"
+    ;
   }
   ?>
   </div>
-</div>

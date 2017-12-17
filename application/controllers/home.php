@@ -8,7 +8,10 @@ class home extends CI_Controller {
 	{
 		$this->load->helper('url');
     $this->load->view('template/header');
-		$this->load->view('home');
+		$data=array();
+		$this->load->Model("Pictures_model_DB");
+		$data["curPicData"]=$this->Pictures_model_DB->getCarouselPics();
+		$this->load->view('home',$data);
 		$this->load->view('middleContent');
 		$this->load->view('template/footer');
 
